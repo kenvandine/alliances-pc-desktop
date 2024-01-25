@@ -1,4 +1,4 @@
-name: pc-desktop
+name: pc-desktop-landscape
 version: '22-0.4'
 type: gadget
 build-base: core22

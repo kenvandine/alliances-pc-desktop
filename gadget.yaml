@@ -64,6 +64,15 @@ defaults:
     refresh.retain: 2
     service.ssh.listen-address: 127.0.0.1
     swap.size: 4G
+  # landscape client
+  ffnH0sJpX3NFAclH777M8BdXIWpo93af:
+    auto-config:
+      enabled: true
+      hostname-pattern: ${model:5:4}-${serial:0:6}
+      wait-for-serial-as: true
+      auto-enrol: true
+      landscape-url: https://landscape.linuxgroove.com
+      registration-key: 12d7f056b372
 
 # Connect ubuntu-desktop-session
 connections:
