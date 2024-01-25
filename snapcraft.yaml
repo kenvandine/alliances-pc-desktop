@@ -1,4 +1,4 @@
-name: pc-desktop-landscape
+name: alliances-pc-desktop
 version: '22-0.4'
 type: gadget
 build-base: core22
