@@ -70,6 +70,8 @@ defaults:
     auto-enrol: true
     landscape-url: https://landscape.linuxgroove.com
     registration-key: 12d7f056b372
+    account-name: standalone
+    computer-title: alliances
 
 # Connect ubuntu-desktop-session
 connections:
