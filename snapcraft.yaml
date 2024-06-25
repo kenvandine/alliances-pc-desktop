@@ -1,12 +1,15 @@
-name: pc
+name: pc-desktop
 version: '24-0.1'
 type: gadget
-base: core24
+build-base: core24
+base: core24-desktop
 summary: PC gadget for generic devices
 description: |
-    This gadget enables generic pc devices to work with Ubuntu Core
+    This gadget enables generic pc devices to work with Ubuntu Core Desktop
 confinement: strict
 grade: stable
+platforms:
+  amd64:
 icon: icon.png
 
 #package-repositories:
@@ -86,3 +89,6 @@ parts:
       # We need to install directly in the project dir as snapcraft checks there
       # for gadget.yaml instead of looking first at the prime folder.
       install -m 644 gadget-"${CRAFT_ARCH_BUILD_FOR}".yaml "${CRAFT_PROJECT_DIR}"/gadget.yaml
+  extra:
+    source: ./extra
+    plugin: dump
