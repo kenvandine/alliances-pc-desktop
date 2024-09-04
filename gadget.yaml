@@ -66,12 +66,12 @@ defaults:
     swap.size: 4G
   # landscape client
   ffnH0sJpX3NFAclH777M8BdXIWpo93af:
-    landscape-url: https://landscape.linuxgroove.com
+    landscape-url: https://landscape.canonical.com
     registration-key: 12d7f056b372
-    account-name: standalone
+    account-name: s37mtu4y
     auto-register:
       enabled: true
-      computer-title-pattern: test-${model:7}-${serial:0:8}
+      computer-title-pattern: alliances-${model:7}-${serial:0:8}
       wait-for-serial-as: true
 
 # Connect ubuntu-desktop-session
