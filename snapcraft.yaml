@@ -40,6 +40,10 @@ parts:
           exit
       fi
       craftctl default
+  deps:
+    plugin: nil
+    stage-packages:
+      - uuid-runtime
   boot-assets:
     plugin: nil
     build-packages:
@@ -47,7 +51,6 @@ parts:
     stage-packages:
       - grub-efi-$CRAFT_ARCH_BUILD_FOR-signed
       - shim-signed
-      - uuid-runtime
     override-build: |
       set -x
 
