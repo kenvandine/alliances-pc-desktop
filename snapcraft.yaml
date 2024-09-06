@@ -47,6 +47,7 @@ parts:
     stage-packages:
       - grub-efi-$CRAFT_ARCH_BUILD_FOR-signed
       - shim-signed
+      - uuid-runtime
     override-build: |
       set -x
 
