@@ -74,7 +74,7 @@ defaults:
     account-name: s37mtu4y
     auto-register:
       enabled: true
-      computer-title-pattern: alliances-${model:7}-${serial:0:8}
+      computer-title-pattern: ${model}-${serial:0:8}
       wait-for-serial-as: true
 
 # Connect ubuntu-desktop-session
