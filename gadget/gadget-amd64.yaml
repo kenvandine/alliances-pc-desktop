@@ -77,35 +77,35 @@ defaults:
       computer-title-pattern: ${model}-${serial:0:8}
       wait-for-serial-as: true
 
-# Connect ubuntu-desktop-session
+# Connect alliances-education-desktop-session
 connections:
-  - plug: LVkazk0JLrL0ivuHRlv3wp3bK1nAgwtN:account-control
-  - plug: LVkazk0JLrL0ivuHRlv3wp3bK1nAgwtN:avahi-control
+  - plug: 26K3dM1k7xdoJ7ZIYsSPmyBFjn4ujl73:account-control
+  - plug: 26K3dM1k7xdoJ7ZIYsSPmyBFjn4ujl73:avahi-control
     slot: dVK2PZeOLKA7vf1WPCap9F8luxTk9Oll:avahi-control
-  - plug: LVkazk0JLrL0ivuHRlv3wp3bK1nAgwtN:desktop-launch
-  - plug: LVkazk0JLrL0ivuHRlv3wp3bK1nAgwtN:hardware-observe
-  - plug: LVkazk0JLrL0ivuHRlv3wp3bK1nAgwtN:home
-  - plug: LVkazk0JLrL0ivuHRlv3wp3bK1nAgwtN:hostname-control
-  - plug: LVkazk0JLrL0ivuHRlv3wp3bK1nAgwtN:locale-control
-  - plug: LVkazk0JLrL0ivuHRlv3wp3bK1nAgwtN:login-session-observe
-  - plug: LVkazk0JLrL0ivuHRlv3wp3bK1nAgwtN:login-session-control
-  - plug: LVkazk0JLrL0ivuHRlv3wp3bK1nAgwtN:mount-observe
-  - plug: LVkazk0JLrL0ivuHRlv3wp3bK1nAgwtN:network-control
-  - plug: LVkazk0JLrL0ivuHRlv3wp3bK1nAgwtN:network-observe
-  - plug: LVkazk0JLrL0ivuHRlv3wp3bK1nAgwtN:polkit-agent
-  - plug: LVkazk0JLrL0ivuHRlv3wp3bK1nAgwtN:process-control
-  - plug: LVkazk0JLrL0ivuHRlv3wp3bK1nAgwtN:shutdown
-  - plug: LVkazk0JLrL0ivuHRlv3wp3bK1nAgwtN:system-observe
-  - plug: LVkazk0JLrL0ivuHRlv3wp3bK1nAgwtN:shell-config-files
+  - plug: 26K3dM1k7xdoJ7ZIYsSPmyBFjn4ujl73:desktop-launch
+  - plug: 26K3dM1k7xdoJ7ZIYsSPmyBFjn4ujl73:hardware-observe
+  - plug: 26K3dM1k7xdoJ7ZIYsSPmyBFjn4ujl73:home
+  - plug: 26K3dM1k7xdoJ7ZIYsSPmyBFjn4ujl73:hostname-control
+  - plug: 26K3dM1k7xdoJ7ZIYsSPmyBFjn4ujl73:locale-control
+  - plug: 26K3dM1k7xdoJ7ZIYsSPmyBFjn4ujl73:login-session-observe
+  - plug: 26K3dM1k7xdoJ7ZIYsSPmyBFjn4ujl73:login-session-control
+  - plug: 26K3dM1k7xdoJ7ZIYsSPmyBFjn4ujl73:mount-observe
+  - plug: 26K3dM1k7xdoJ7ZIYsSPmyBFjn4ujl73:network-control
+  - plug: 26K3dM1k7xdoJ7ZIYsSPmyBFjn4ujl73:network-observe
+  - plug: 26K3dM1k7xdoJ7ZIYsSPmyBFjn4ujl73:polkit-agent
+  - plug: 26K3dM1k7xdoJ7ZIYsSPmyBFjn4ujl73:process-control
+  - plug: 26K3dM1k7xdoJ7ZIYsSPmyBFjn4ujl73:shutdown
+  - plug: 26K3dM1k7xdoJ7ZIYsSPmyBFjn4ujl73:system-observe
+  - plug: 26K3dM1k7xdoJ7ZIYsSPmyBFjn4ujl73:shell-config-files
     slot: system:system-files
-  - plug: LVkazk0JLrL0ivuHRlv3wp3bK1nAgwtN:time-control
-  - plug: LVkazk0JLrL0ivuHRlv3wp3bK1nAgwtN:timeserver-control
-  - plug: LVkazk0JLrL0ivuHRlv3wp3bK1nAgwtN:timezone-control
-  - plug: LVkazk0JLrL0ivuHRlv3wp3bK1nAgwtN:upower-observe
-  - plug: LVkazk0JLrL0ivuHRlv3wp3bK1nAgwtN:network-manager
+  - plug: 26K3dM1k7xdoJ7ZIYsSPmyBFjn4ujl73:time-control
+  - plug: 26K3dM1k7xdoJ7ZIYsSPmyBFjn4ujl73:timeserver-control
+  - plug: 26K3dM1k7xdoJ7ZIYsSPmyBFjn4ujl73:timezone-control
+  - plug: 26K3dM1k7xdoJ7ZIYsSPmyBFjn4ujl73:upower-observe
+  - plug: 26K3dM1k7xdoJ7ZIYsSPmyBFjn4ujl73:network-manager
     slot: RmBXKl6HO6YOC2DE4G2q1JzWImC04EUy:service
-  - plug: LVkazk0JLrL0ivuHRlv3wp3bK1nAgwtN:bluez
+  - plug: 26K3dM1k7xdoJ7ZIYsSPmyBFjn4ujl73:bluez
     slot: JmzJi9kQvHUWddZ32PDJpBRXUpGRxvNS:service
-  - plug: LVkazk0JLrL0ivuHRlv3wp3bK1nAgwtN:bluetooth-control
-  - plug: LVkazk0JLrL0ivuHRlv3wp3bK1nAgwtN:cups-control
+  - plug: 26K3dM1k7xdoJ7ZIYsSPmyBFjn4ujl73:bluetooth-control
+  - plug: 26K3dM1k7xdoJ7ZIYsSPmyBFjn4ujl73:cups-control
     slot: m1eQacDdXCthEwWQrESei3Zao3d5gfJF:cups-control
