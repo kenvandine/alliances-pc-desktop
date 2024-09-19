@@ -2,7 +2,7 @@ name: alliances-pc-desktop
 version: '24-0.1'
 type: gadget
 build-base: core24
-base: core24-desktop
+base: alliances-core24-education
 summary: PC gadget for generic devices
 description: |
     This gadget enables generic pc devices to work with Ubuntu Core Desktop
